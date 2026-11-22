@@ -22,4 +22,33 @@ the average. You know? Either they give you about the same number, or median giv
 So what gives? Why do we keep on finding the average then if that's not it? Now, for the longest
 time I didn't have an answer to that, like, way beyond getting my PhD, even though I was way
 more intimate with all kinds of properties of both than anyone has any practical reason to be.
-Then I read this book: Seven pillars of statistical wisdom, by 
+Then I read this book: Seven pillars of statistical wisdom, by Stephen Stigler, and my mind was
+blown. Obviously I highly recommend this book, it somehow manages to be both profound and beautiful
+at the same time, which is obviously surprising given the subject. Anyway. The first pillar of
+statistical wisdom is - spoiler alert - the average. Or, actually it's called Aggregation
+but it's the same thing. You'll see in a minute.
+
+The book has this picture.
+
+And this really drove the point home to me, and I hope to you too. So, this is a woodcarving
+from the 16 hundreds, called Determination of the lawful rod. Now what is a rod? It is a unit of
+length equal to 16 feet. You use it to measure land. Now foot is a
+super convenient unit of length, or it would be but feet don't come in a standard size. Some 
+are smaller and some a bigger. So the genius point here is that you get your rod to be equal
+to 16 *average* feet when you make it equal to the sum of 16 random feet.
+
+The point I'm making here is that this equation and the picture you just saw are the same thing.
+And this is the job of the average. It doesn't represent the typical, it represents the total.
+It's the number that gives you the total, when you multiply it by the size of your sample.
+
+But wait there's more. When I say that the total and n times the average are equal, I'm saying
+that there is no difference there, I'm making no error if I replace one with the other. The 
+difference, or the error is zero. Now if I write this left side in just slightly different
+form.... Now I'm saying that if I replace each individual value with the average, the errors
+cancel each other out. They sum up to zero. In total I'm making no error. Individually yes,
+possibly even such that I'm overestimating most of them and badly underestimating a few -
+which is exactly what happens with a skewed distribution. Individual errors yes, in total no.
+
+Now if someone comes to you with this equation and says yo, find me a number that behaves like
+this, I mean, that it makes the errors cancel out, you might go hmm sounds like a pretty magical
+number, wonder if that even exists, or why do you even ask. 

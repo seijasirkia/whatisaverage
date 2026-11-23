@@ -51,4 +51,19 @@ which is exactly what happens with a skewed distribution. Individual errors yes,
 
 Now if someone comes to you with this equation and says yo, find me a number that behaves like
 this, I mean, that it makes the errors cancel out, you might go hmm sounds like a pretty magical
-number, wonder if that even exists, or why do you even ask. 
+number, wonder if that even exists. But it does, it's your friend the average. Also you might ask
+maybe why do you want to find this number? And some of you might have realized this was coming, 
+or maybe this sum of errors looks familiar. The reason why you might want to find the number that
+makes the sum of errors be zero thing is that it is the number that solves this optimization
+problem:
+
+Minimize the sum of squared errors. You've heard of least squares, right? And now you maybe realise 
+that I was going backwards the whole time, working up from the solution to the problem. Like this 
+was a christopher nolan movie or something. But now, you possibly remember I started with the 
+question of what's the point of the average, and now I have apparently arrived at an answer,
+because it's the least squares thing! But now the question becomes, well what's the point of 
+least squares then. You may also remember that I insisted that it was this
+first rewrite, being equal to the total, was the real deal. And I still say so. And
+consequently, that is also the answer to the question of what's the point of least squares:
+Least squares is the device that turns this "errors should sum up to zero" equation in to an
+optimization problem.
